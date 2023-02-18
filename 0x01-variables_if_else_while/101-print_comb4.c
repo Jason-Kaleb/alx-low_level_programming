@@ -15,7 +15,7 @@ int main(void)
 		{
 			for (dig = 50; dig < 58; dig++)
 			{
-				if (n > num)
+				if (n >= num)
 				{
 					continue;
 				}
