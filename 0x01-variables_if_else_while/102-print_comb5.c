@@ -2,7 +2,8 @@
 /**
  * main - main function of my program(entry point)
  *
- * description: prints all possible combinations of two two-digit numbers that do not repeat
+ * description: prints all possible combinations of two two-digit numbers
+ *  --> no repeated digits included
  * Return: always return 0 = success
  */
 int main(void)
