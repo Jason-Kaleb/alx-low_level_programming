@@ -1,16 +1,17 @@
 #include <stdio.h>
-/*
- * main - entry point -> function that displays the combination of ASCII two digits
+/**
+ * main - main function of program(entry point)
  *
+ * description: no repeating of combination of ASCII digits (two)
  * Return: always return 0 = success
  */
 int main(void)
 {
 	int n, num;
-	
-	for (n = 48;n < 57;n++)
+
+	for (n = 48; n < 57; n++)
 	{
-		for (num = 48;num < 58;num++)
+		for (num = 48; num < 58; num++)
 		{
 			if (n > num)
 			{
