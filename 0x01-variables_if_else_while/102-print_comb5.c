@@ -8,36 +8,31 @@
  */
 int main(void)
 {
-	int n, num, numb, dig;
+	int n, num;
 
-	for (n = 48; n < 58; n++)
+	for (n = 0; n < 99; n++)
 	{
-		for (num = 48; num < 57; num++)
+		for (num = 0; num <= 99; num++)
 		{
-			for (numb = 48; numb < 58; numb++)
+			if (n != num && n <= num)
 			{
-				for (dig = 49; dig < 58; dig++)
+				putchar(n / 10 + 48);
+				putchar(n % 10 + 48);
+				putchar(' ');
+				putchar(num / 10 + 48);
+				putchar(num % 10 + 48);
+				/*if ((num * 100) != 9899)
 				{
-					if (n > numb)
-					{
-						continue;
-					}
-					if (num >= dig)
-					{
-						continue;
-					}
-					putchar(n);
-					putchar(num);
-					putchar(' ');
-					putchar(numb);
-					putchar(dig);
-					if (n == 57 && num == 56)
-					{
-						break;
-					}
 					putchar(',');
 					putchar(' ');
-				}
+				}*/
+				if (n == 98 && num == 99)
+				{
+					break;
+				}			
+				putchar(',');
+				putchar(' ');
+
 			}
 		}
 	}
