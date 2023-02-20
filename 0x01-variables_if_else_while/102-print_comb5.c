@@ -21,18 +21,12 @@ int main(void)
 				putchar(' ');
 				putchar(num / 10 + 48);
 				putchar(num % 10 + 48);
-				/*if ((num * 100) != 9899)
-				{
-					putchar(',');
-					putchar(' ');
-				}*/
 				if (n == 98 && num == 99)
 				{
 					break;
 				}			
 				putchar(',');
 				putchar(' ');
-
 			}
 		}
 	}
