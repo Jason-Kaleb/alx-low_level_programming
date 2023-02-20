@@ -24,7 +24,7 @@ int main(void)
 				if (n == 98 && num == 99)
 				{
 					break;
-				}			
+				}
 				putchar(',');
 				putchar(' ');
 			}
