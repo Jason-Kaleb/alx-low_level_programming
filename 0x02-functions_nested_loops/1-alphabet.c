@@ -7,8 +7,14 @@
  * description: prints the alphabet in lower case
  * Return: always 0 = success
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	int alpha = 97;
+
+	while (alpha <= 122)
+	{
+		_putchar(alpha);
+		alpha++;
+	}
 	return (0);
 }
