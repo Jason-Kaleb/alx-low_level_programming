@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int n = 0, a = 1, b = 2;
+	long n = 0, a = 1, b = 2;
 	
-	printf("%d, %d", a, b);
-	while (n <= 20365011073)
+	printf("%lu, %lu", a, b);
+	while (n < 20365011073)
 	{
 		n = a + b;
-		printf(", %d", n);
+		printf(", %lu", n);
 		a=b;
 		b=n;
 		n++;
