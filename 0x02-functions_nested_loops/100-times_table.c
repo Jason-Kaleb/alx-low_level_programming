@@ -23,16 +23,16 @@ void print_times_table(int n)
 				{
 					_putchar(' ');
 				}
-				else if (s <= 9)
+				if (s <= 9)
 				{
 					_putchar(' ');
 				}
-				else if (s >= 100)
+				if (s >= 100)
 				{
 					_putchar((s / 100) + '0');
 					_putchar((s / 10) % 10 + '0');
 				}
-				else
+				else if (s <= 99 && s >= 10)
 				{
 					_putchar((s / 10) + '0');
 				}
