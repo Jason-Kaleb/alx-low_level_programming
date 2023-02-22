@@ -13,8 +13,8 @@ int main(void)
 	{
 		n = a + b;
 		printf(", %lu", n);
-		a=b;
-		b=n;
+		a = b;
+		b = n;
 		n++;
 	}
 	printf("\n");
