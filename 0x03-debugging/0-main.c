@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - tests an int whether it is postive or negative
  * Return: 0 always = success
