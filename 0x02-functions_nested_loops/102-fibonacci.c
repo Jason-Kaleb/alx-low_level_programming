@@ -7,7 +7,7 @@
 int main(void)
 {
 	long n = 0, a = 1, b = 2;
-	
+
 	printf("%lu, %lu", a, b);
 	while (n < 20365011073)
 	{
