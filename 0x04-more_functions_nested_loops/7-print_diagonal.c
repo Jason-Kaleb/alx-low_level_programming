@@ -2,7 +2,9 @@
 
 /**
  * print_diagonal - prints the character \
- * @n: number of times to be printed
+ *
+ * @n : number of times the character should be printed
+ * number of times \ should be printed
  * Return: void
  */
 
