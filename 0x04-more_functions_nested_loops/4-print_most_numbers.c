@@ -3,6 +3,7 @@
 /**
  * print_most_numbers - prints numbers 0 - 9
  * but not 2 and 4
+ * @a: character to print
  * Return: void
  */
 
