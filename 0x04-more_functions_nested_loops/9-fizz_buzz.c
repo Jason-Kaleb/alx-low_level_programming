@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - prints numbers from 0-100
@@ -11,9 +10,9 @@
 
 int main(void)
 {
-	int a;
+	int a = 0;
 
-	for (a = 1; a <= 100; a++)
+	while (a++ < 100)
 	{
 		if (a % 3 == 0)
 		{
