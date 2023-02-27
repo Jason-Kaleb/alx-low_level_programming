@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 
 	if (n > 0)
 	{
-		while(z < n)
+		while (z < n)
 		{
 			if (z == 0)
 			{
@@ -25,6 +25,7 @@ void print_array(int *a, int n)
 				_putchar(' ');
 				_putchar(a[z]);
 			}
+			z++;
 		}
 	}
 	_putchar('\n');
