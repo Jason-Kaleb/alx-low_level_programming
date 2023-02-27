@@ -10,20 +10,18 @@
 
 void print_array(int *a, int n)
 {
-	int z = 0;
+	int z;
 
-	while (z < n)
+	for (z = 0; z < n; z++)
 	{
 		if (z == 0)
 		{
-			_putchar(a[z]);
+			printf("%d", a[z]);
 		}
 		else
 		{
-			_putchar(' ');
-			_putchar(a[z]);
+			printf(", %d", a[z]);
 		}
-		z++;
 	}
 	_putchar('\n');
 }
