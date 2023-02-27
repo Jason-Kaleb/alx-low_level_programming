@@ -12,21 +12,18 @@ void print_array(int *a, int n)
 {
 	int z = 0;
 
-	if (n > 0)
+	while (z < n)
 	{
-		while (z < n)
+		if (z == 0)
 		{
-			if (z == 0)
-			{
-				_putchar(a[z]);
-			}
-			else
-			{
-				_putchar(' ');
-				_putchar(a[z]);
-			}
-			z++;
+			_putchar(a[z]);
 		}
+		else
+		{
+			_putchar(' ');
+			_putchar(a[z]);
+		}
+		z++;
 	}
 	_putchar('\n');
 }
