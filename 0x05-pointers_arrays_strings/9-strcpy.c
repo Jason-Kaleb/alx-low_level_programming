@@ -2,8 +2,8 @@
 
 /**
  * *_strcpy - copies a string and prints it
- * @dest - first char to be evaluated
- * @src - where string will be pointed to
+ * @dest: first char to be evaluated
+ * @src: where string will be pointed to
  * Return: dest
  */
 
