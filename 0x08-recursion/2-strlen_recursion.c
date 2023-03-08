@@ -9,28 +9,20 @@
 
 int _strlen_recursion(char *s)
 {
-	/*if (*s == '\0')
-	 *{
-	 *	return (0);
-	 *}
-	 *_strlen_recursion(s + 1);
-	 */
-
-	if (*s != '\0')
+	if (*s == '\0')
 	{
-		_strlen_recursion(s + 1);
+		return (0);
 	}
-
-	return (*s - 53);
+	
+	return(_strlen_recursion(s + 1) + 1);
 }
 
-/*int main(void)
- *{
- *	int n;
+int main(void)
+{
+	int n;
 
-	n = _strlen_recursion("Corbin Coleman");
+	n = _strlen_recursion("You must'nt be afraid to dream a little bigger, darling.");
 	printf("%d\n", n);
 
 	return (0);
 }
-*/
