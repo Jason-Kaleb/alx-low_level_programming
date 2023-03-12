@@ -2,18 +2,21 @@
 #include <stdio.h>
 
 /**
- * main - prints the number of arguments
- * passed into it
+ * main - prints all the arguments it
+ * receives
  * @argc: argument count
  * @argv: argument vector
- * (void)argv: unused variable
  * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	printf("%d\n", (argc - 1));
+	int a;
 
-	(void)argv;
+	for (a = 0; a < argc; a++)
+	{
+		printf("%s\n", argv[a]);
+	}
+
 	return (0);
 }
