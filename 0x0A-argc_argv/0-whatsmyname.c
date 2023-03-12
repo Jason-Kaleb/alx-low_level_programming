@@ -1,9 +1,12 @@
 #include <stdio.h>
 
-/** main - prints its name
+/**
+ * main - prints its name
+ * description: this function prints the name given
+ * by any user
  * @argc: argument count
  * @argv: argument vector
- * Return: 0
+ * Return: 0 =success always
  */
 
 int main(int argc, char *argv[])
